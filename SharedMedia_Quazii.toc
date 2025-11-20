@@ -1,13 +1,17 @@
-## Interface: 110200
-## Interface-Classic: 11501
-## Interface-BCC: 20504
-## Interface-Wrath: 30403
+## Interface: 30300
+
 ## Title: SharedMedia_Quazii
 ## Notes: Quazii's custom media for LibSharedMedia-3.0
 ## Version: 1.0.9
 ## Author: Quazii
 ## X-Category: Library
-## X-Website: https://github.com/imquazii/SharedMedia_Quazii
-## Dependencies: SharedMedia
+## X-Credits: Quazii
 
-Quazii.lua 
+## OptionalDeps: LibSharedMedia-3.0, LibSharedMedia-2.0, SharedMediaLib
+
+Libs\LibStub.lua
+
+embeds.xml
+
+Core.lua
+SharedMedia_Quazii.lua
