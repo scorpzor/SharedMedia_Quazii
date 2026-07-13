@@ -1,4 +1,4 @@
-## Interface: 30300
+## Interface: 70300
 
 ## Title: SharedMedia_Quazii
 ## Notes: Quazii's custom media for LibSharedMedia-3.0
@@ -7,11 +7,8 @@
 ## X-Category: Library
 ## X-Credits: Quazii
 
-## OptionalDeps: LibSharedMedia-3.0, LibSharedMedia-2.0, SharedMediaLib
+## OptionalDeps: LibSharedMedia-3.0
 
-Libs\LibStub.lua
-
-embeds.xml
-
-Core.lua
+Libs\LibStub\LibStub.lua
+Libs\LibSharedMedia-3.0\lib.xml
 SharedMedia_Quazii.lua
